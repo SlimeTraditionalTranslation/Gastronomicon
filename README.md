@@ -37,4 +37,3 @@ API 文檔可以在 Wiki 上找到：https://github.com/SchnTgaiSpock/Gastronomi
 部分頭部材質取自 [minecraft-heads.com](https://minecraft-heads.com/)，並且可能進行了修改。 
 
 [![minecraft-heads banner](https://minecraft-heads.com/images/banners/minecraft-heads_fullbanner_468x60.png)](https://minecraft-heads.com/)
-
