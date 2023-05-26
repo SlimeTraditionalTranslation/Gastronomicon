@@ -12,7 +12,7 @@
 
 -Paper（或其衍生版本）
 
--Slimefun DEV 1040（RC 33）或更高版本
+- Slimefun DEV 1040（RC 33）或更高版本
 
 -Minecraft 1.17+
 
