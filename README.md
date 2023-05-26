@@ -16,7 +16,7 @@
 
 - Minecraft 1.17+
 
--Java 16+
+- Java 16+
 
 *雖然不需要，但強烈建議使用 Exotic Garden！*
 
