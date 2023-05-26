@@ -14,7 +14,7 @@
 
 - Slimefun DEV 1040（RC 33）或更高版本
 
--Minecraft 1.17+
+- Minecraft 1.17+
 
 -Java 16+
 
