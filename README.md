@@ -11,8 +11,11 @@
 ## 系統要求
 
 -Paper（或其衍生版本）
+
 -Slimefun DEV 1040（RC 33）或更高版本
+
 -Minecraft 1.17+
+
 -Java 16+
 
 *雖然不需要，但強烈建議使用 Exotic Garden！*
