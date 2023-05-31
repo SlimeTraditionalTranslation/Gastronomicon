@@ -19,7 +19,7 @@ msgstr ""
 
 #: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:86
 msgid "SlimeHUD was found on this server!"
-msgstr "在此伺服器上發現了 SlimeHUD！"
+msgstr "在此伺服器上發現了 SlimeHUD!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:87
 msgid "Setting up Gastronomicon for SlimeHUD..."
@@ -31,11 +31,11 @@ msgstr "此伺服器使用不相容的 SlimeHUD 版本"
 
 #: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:91
 msgid "Please update SlimeHUD to version 1.2.0 or higher!"
-msgstr "請將 SlimeHUD 更新至 1.2.0 或更高版本！"
+msgstr "請將 SlimeHUD 更新至 1.2.0 或更高版本!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:99
 msgid "ExoticGarden was not found on this server!"
-msgstr "在此伺服器上找不到 ExoticGarden！"
+msgstr "在此伺服器上找不到 ExoticGarden!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:100
 msgid "Recipes that require ExoticGarden items will be hidden."
@@ -43,7 +43,7 @@ msgstr "需要 ExoticGarden 物品的食譜將被隱藏。"
 
 #: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:105
 msgid "DynaTech was found on this server!"
-msgstr "在此伺服器上發現了 DynaTech！"
+msgstr "在此伺服器上發現了 DynaTech!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:106
 msgid "Registering Gastronomicon crops with DynaTech..."
@@ -55,7 +55,7 @@ msgstr "此伺服器使用不相容的 DynaTech 版本"
 
 #: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:110
 msgid "Please keep Gastronomicon and DynaTech up to date!"
-msgstr "請保持 Gastronomicon 和 DynaTech 最新版本！"
+msgstr "請保持 Gastronomicon 和 DynaTech 最新版本!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:97
 msgid "&aHealth +"
@@ -107,7 +107,7 @@ msgstr "&f清除所有效果"
 
 #: main/java/io/github/schntgaispock/gastronomicon/api/items/FoodItemStack.java:83
 msgid "&7When consumed:"
-msgstr "&7當食用時："
+msgstr "&7當食用時:"
 
 #: main/java/io/github/schntgaispock/gastronomicon/api/recipes/GastroRecipe.java:40
 msgid "&7This recipe is &fshaped"
@@ -144,7 +144,7 @@ msgstr "&e地獄的"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:21
 msgid "&eEnd"
-msgstr "&e末地的"
+msgstr "&e終界的"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:53
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:66
@@ -154,21 +154,21 @@ msgstr "&c未知玩家!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:85
 msgid "§lGastronomicon&7> &cYou do not have permission to modify profiles!"
-msgstr "§lGastronomicon&7> &c您沒有權限修改配置文件！"
+msgstr "§lGastronomicon&7> &c您沒有權限修改配置文件!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:92
 msgid "&cAmount must be a number!"
-msgstr "&c數量必須是一個數字！"
+msgstr "&c數量必須是一個數字!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:96
 msgid "&cAmount must be positive!"
-msgstr "&c數量必須為正數！"
+msgstr "&c數量必須為正數!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:109
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:188
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:207
 msgid "&cUnknown food!"
-msgstr "&c未知食物！"
+msgstr "&c未知食物!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:131
 msgid "§lGastronomicon §8- §7Version "
@@ -184,7 +184,7 @@ msgstr "§lIssues §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/issues"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:142
 msgid "The help section is a WIP! "
-msgstr "幫助部分還在製作中！"
+msgstr "幫助部分還在製作中!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:143
 msgid "For now, please see https://github.com/SchnTgaiSpock/Gastronomicon"
@@ -192,7 +192,7 @@ msgstr "現在請參閱 https://github.com/SchnTgaiSpock/Gastronomicon"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:148
 msgid "§lGastronomicon §8- §7Credits:"
-msgstr "§lGastronomicon §8- §7製作人員："
+msgstr "§lGastronomicon §8- §7製作人員:"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:150
 msgid ""
@@ -203,11 +203,11 @@ msgstr "§7某些頭像紋理取自且/或修改自:https://minecraft-heads.com/
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:158
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:183
 msgid "§lGastronomicon&7> &cYou do not have permission to check your profile!"
-msgstr "§lGastronomicon&7> &c你沒有權限檢查你的個人資料！"
+msgstr "§lGastronomicon&7> &c你沒有權限檢查你的個人資料!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:160
 msgid "Proficiencies:"
-msgstr "熟練度："
+msgstr "熟練度:"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:170
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:202
@@ -218,7 +218,7 @@ msgstr "§lGastronomicon&7> &c您沒有權限檢查其他玩家的個人資料!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:173
 msgid "'s Proficiencies:"
-msgstr "的熟練度："
+msgstr "的熟練度:"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:223
 #, java-format
@@ -237,7 +237,7 @@ msgstr "已成功為 {2} 移除 {0} {1} 的熟練度"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:238
 msgid "Unknown mode!"
-msgstr "未知的模式！"
+msgstr "未知的模式!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:13
 msgid "Basic Tools"
@@ -1680,7 +1680,7 @@ msgstr "威士忌"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/food/SimpleGastroFood.java:49
 msgid "&7Tools/Container Required:"
-msgstr "&7需要的工具/容器："
+msgstr "&7需要的工具/容器:"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:95
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:106
@@ -1690,15 +1690,15 @@ msgstr "&e請將一個有效的食品項目放入中間位置"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:100
 msgid "The output slot is full!"
-msgstr "輸出欄位已滿！"
+msgstr "輸出欄位已滿!"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:130
 msgid "&eYou are not proficient enough in this recipe! Required: "
-msgstr "&e您在這道食譜上的熟練度不足！要求："
+msgstr "&e您在這道食譜上的熟練度不足!要求:"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:56
 msgid "&7Temperature: &eLOW"
-msgstr "&7溫度：&e低溫"
+msgstr "&7溫度:&e低溫"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:58
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:63
@@ -1707,7 +1707,7 @@ msgstr "&b左鍵點擊&7以增加溫度"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:61
 msgid "&7Temperature: &6MEDIUM"
-msgstr "&7溫度：&6中溫"
+msgstr "&7溫度:&6中溫"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:64
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:69
@@ -1716,7 +1716,7 @@ msgstr "&b右鍵點擊&7以降低溫度"
 
 #: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:67
 msgid "&7Temperature: &cHIGH"
-msgstr "&7溫度：&c高溫"
+msgstr "&7溫度:&c高溫"
 
 #: main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:29
 #: main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:31
