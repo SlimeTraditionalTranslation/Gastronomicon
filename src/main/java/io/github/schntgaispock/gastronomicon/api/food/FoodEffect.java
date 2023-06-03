@@ -110,8 +110,8 @@ public class FoodEffect {
         final int a = Math.max(amplifier, 0);
         final int pa = amplifier + PERFECT_BONUS_POTION_LEVEL;
         return new FoodEffect(
-            color + ItemUtil.getPotionName(effectType) + " " + NumberUtil.asRomanNumeral(a + 1) + " (" + d + "s)",
-            color + ItemUtil.getPotionName(effectType) + " " + NumberUtil.asRomanNumeral(pa + 1) + " (" + pd + "s)",
+            color + ItemUtil.getPotionName(effectType) + " " + NumberUtil.asRomanNumeral(a + 1) + " (" + d + GetText.tr("s)"),
+            color + ItemUtil.getPotionName(effectType) + " " + NumberUtil.asRomanNumeral(pa + 1) + " (" + pd + GetText.tr("s)"),
             (Player player, Boolean isPerfect) -> {
                 player.addPotionEffect(new PotionEffect(effectType, 20 * (isPerfect ? pd : d), (isPerfect ? pa : a),
                     ambience, particles, icon));

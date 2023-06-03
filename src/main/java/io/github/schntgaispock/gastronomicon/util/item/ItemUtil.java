@@ -3,6 +3,8 @@ package io.github.schntgaispock.gastronomicon.util.item;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
+import de.unpixelt.locale.Locale;
+import de.unpixelt.locale.Translate;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -69,18 +71,7 @@ public class ItemUtil {
     }
 
     public static String getPotionName(PotionEffectType type) {
-        return switch (type.getName()) {
-            case "SLOW" -> GetText.tr("Slowness");
-            case "FAST_DIGGING" -> GetText.tr("Haste");
-            case "SLOW_DIGGING" -> GetText.tr("Mining Fatigue");
-            case "INCREASE_DAMAGE" -> GetText.tr("Strength");
-            case "HEAL" -> GetText.tr("Instant Health");
-            case "HARM" -> GetText.tr("Instant Damage");
-            case "CONFUSION" -> GetText.tr("Nausea");
-            case "DAMAGE_RESISTANCE" -> GetText.tr("Resistance");
-            case "UNLUCK" -> GetText.tr("Bad Luck");
-            default -> WordUtils.capitalizeFully(type.getName().replaceAll("_", " "));
-        };
+        return Translate.getEffect(Locale.zh_tw, type);
     }
 
 }
