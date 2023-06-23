@@ -22,8 +22,8 @@ drops:
 profile:
   # Titles based on total proficient food
   titles:
-    0: Not-a-chef
-    1: Novice Chef
-    50: Apprentice Chef
-    100: Experienced Chef
-    200: 3-Star Chef
+    0: 不是名廚師
+    1: 新手廚師
+    50: 學徒廚師
+    100: 老練廚師
+    200: 三星廚師

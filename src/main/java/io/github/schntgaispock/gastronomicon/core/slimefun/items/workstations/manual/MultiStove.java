@@ -5,6 +5,7 @@ import java.util.List;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -33,6 +34,18 @@ public class MultiStove extends GastroWorkstation implements EnergyNetComponent 
         LOW(TEMPERATURE_BUTTON_LOW), MEDIUM(TEMPERATURE_BUTTON_MEDIUM), HIGH(TEMPERATURE_BUTTON_HIGH);
 
         private final @Getter ItemStack item;
+
+        public static @Nullable Temperature getTRByName(String name) {
+            if (ChatColor.stripColor(ChatColor.translateAlternateColorCodes('&', GetText.tr("&7Temperature: &eLOW"))).equals(name)) {
+                return LOW;
+            } else if (ChatColor.stripColor(ChatColor.translateAlternateColorCodes('&', GetText.tr("&7Temperature: &6MEDIUM"))).equals(name)) {
+                return MEDIUM;
+            } else if (ChatColor.stripColor(ChatColor.translateAlternateColorCodes('&', GetText.tr("&7Temperature: &cHIGH"))).equals(name)) {
+                return HIGH;
+            } else {
+                return null;
+            }
+        }
 
         public @Nullable Temperature next() {
             if (ordinal() == values().length - 1) {
@@ -98,7 +111,8 @@ public class MultiStove extends GastroWorkstation implements EnergyNetComponent 
         });
 
         menu.addMenuClickHandler(TEMPERATURE_BUTTON_SLOT, (player, slot, item, action) -> {
-            final Temperature t = Temperature.valueOf(item.getItemMeta().getDisplayName().substring(17));
+            String display_name = ChatColor.stripColor(item.getItemMeta().getDisplayName());
+            final Temperature t = Temperature.getTRByName(display_name);
             changeTemperature(menu, action.isRightClicked() ? t.prev() : t.next());
             return false;
         });

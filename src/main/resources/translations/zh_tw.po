@@ -1,1764 +1,1729 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: slimetranslations\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-05 11:28+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2023-06-01 10:37+0000\n"
+"PO-Revision-Date: 2023-06-23 10:25\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: slimetranslations\n"
+"X-Crowdin-Project-ID: 585775\n"
+"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-File: /Gastronomicon/messages.pot\n"
+"X-Crowdin-File-ID: 3035\n"
 
-#: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:86
+#: src/main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:86
 msgid "SlimeHUD was found on this server!"
-msgstr "在此伺服器上發現了 SlimeHUD!"
+msgstr "在此伺服器上發現 SlimeHUD！"
 
-#: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:87
+#: src/main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:87
 msgid "Setting up Gastronomicon for SlimeHUD..."
 msgstr "為 SlimeHUD 設定 Gastronomicon 中..."
 
-#: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:90
-msgid "This server is using an incompatible version of SlimeHUD"
+#: src/main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:90
+msgid "This server is using an incompatitable version of SlimeHUD"
 msgstr "此伺服器使用不相容的 SlimeHUD 版本"
 
-#: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:91
+#: src/main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:91
 msgid "Please update SlimeHUD to version 1.2.0 or higher!"
-msgstr "請將 SlimeHUD 更新至 1.2.0 或更高版本!"
+msgstr "請更新 SlimeHUD 到 1.2.0 版本或更高！"
 
-#: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:99
+#: src/main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:99
 msgid "ExoticGarden was not found on this server!"
-msgstr "在此伺服器上找不到 ExoticGarden!"
+msgstr "在此伺服器上找不到 ExoticGarden！"
 
-#: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:100
+#: src/main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:100
 msgid "Recipes that require ExoticGarden items will be hidden."
 msgstr "需要 ExoticGarden 物品的食譜將被隱藏。"
 
-#: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:105
+#: src/main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:105
 msgid "DynaTech was found on this server!"
-msgstr "在此伺服器上發現了 DynaTech!"
+msgstr "在此伺服器上發現了 DynaTech！"
 
-#: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:106
+#: src/main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:106
 msgid "Registering Gastronomicon crops with DynaTech..."
 msgstr "正在註冊 Gastronomicon 作物與 DynaTech ..."
 
-#: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:109
-msgid "This server is using an incompatible version of DynaTech"
+#: src/main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:109
+msgid "This server is using an incompatitable version of DynaTech"
 msgstr "此伺服器使用不相容的 DynaTech 版本"
 
-#: main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:110
+#: src/main/java/io/github/schntgaispock/gastronomicon/Gastronomicon.java:110
 msgid "Please keep Gastronomicon and DynaTech up to date!"
-msgstr "請保持 Gastronomicon 和 DynaTech 最新版本!"
+msgstr "請保持 Gastronomicon 和 DynaTech 最新版本！"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:97
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:97
 msgid "&aHealth +"
 msgstr "&a生命值 +"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:371
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:113
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:114
+msgid "s)"
+msgstr " 秒)"
+
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:371
 msgid "&bClears "
 msgstr "&b清除"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:371
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:371
 msgid " effects"
-msgstr " 效果"
+msgstr "效果"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:388
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:388
 msgid "&eXP +"
 msgstr "&e經驗值 +"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:398
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:399
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:398
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:399
 #, java-format
 msgid "&7Gives {0}x {1}"
 msgstr "&7給予 {0} 個 {1}"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:509
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:509
 msgid "&fAir +"
 msgstr "&f空氣 +"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:524
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:524
 msgid "&6Warmth +"
 msgstr "&6溫暖 +"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:539
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:540
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:539
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:540
 msgid "&7Teleports you somewhere within "
-msgstr "&7傳送你到距離你現在位置"
+msgstr "&7傳送你到距離你現在位置 "
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:539
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:540
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:539
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:540
 msgid " blocks away"
-msgstr " 個方塊的地方"
+msgstr " 格方塊遠"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:588
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:588
 msgid "&fExtinguish yourself"
-msgstr "&f熄滅自己的火焰"
+msgstr "&f熄滅身上的火焰"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:600
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/food/FoodEffect.java:600
 msgid "&fClear all effects"
 msgstr "&f清除所有效果"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/items/FoodItemStack.java:83
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/items/FoodItemStack.java:83
 msgid "&7When consumed:"
-msgstr "&7當食用時:"
+msgstr "&7當食用時："
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/recipes/GastroRecipe.java:40
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/recipes/GastroRecipe.java:40
 msgid "&7This recipe is &fshaped"
-msgstr "&7這個食譜是 &f有形狀的"
+msgstr "&7這個食譜是&f有序合成的"
 
-
-#: main/java/io/github/schntgaispock/gastronomicon/api/recipes/GastroRecipe.java:41
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/recipes/GastroRecipe.java:41
 msgid "&7This recipe is &fshapeless"
-msgstr "&7此食譜為 &f無定形的"
+msgstr "&7這個食譜是&f無序合成的"
 
-#: main/java/io/github/schntgaispock/gastronomicon/api/trees/TreeStructure.java:45
+#: src/main/java/io/github/schntgaispock/gastronomicon/api/trees/TreeStructure.java:45
 msgid "Loaded all trees"
 msgstr "載入所有樹種"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:16
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:16
 msgid "&eDry"
 msgstr "&e乾燥的"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:17
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:17
 msgid "&eTemperate"
 msgstr "&e溫帶的"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:18
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:18
 msgid "&eCold"
 msgstr "&e寒冷的"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:19
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:19
 msgid "&eSnowy"
 msgstr "&e多雪的"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:20
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:20
 msgid "&eNether"
 msgstr "&e地獄的"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:21
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/Climate.java:21
 msgid "&eEnd"
 msgstr "&e終界的"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:53
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:66
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:102
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:53
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:66
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:102
 msgid "&cUnknown player!"
 msgstr "&c未知玩家!"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:85
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:85
 msgid "§lGastronomicon&7> &cYou do not have permission to modify profiles!"
-msgstr "§lGastronomicon&7> &c您沒有權限修改配置文件!"
+msgstr "§l美食家&7> &c 你沒有權限修改設定檔！"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:92
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:92
 msgid "&cAmount must be a number!"
 msgstr "&c數量必須是一個數字!"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:96
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:96
 msgid "&cAmount must be positive!"
 msgstr "&c數量必須為正數!"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:109
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:188
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:207
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:109
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:188
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:207
 msgid "&cUnknown food!"
 msgstr "&c未知食物!"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:131
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:131
 msgid "§lGastronomicon §8- §7Version "
 msgstr "§lGastronomicon §8- §7版本 "
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:135
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:135
 msgid "§lWiki §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/wiki"
 msgstr "§lWiki §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/wiki"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:137
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:137
 msgid "§lIssues §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/issues"
 msgstr "§lIssues §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/issues"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:142
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:142
 msgid "The help section is a WIP! "
-msgstr "幫助部分還在製作中!"
+msgstr "幫助部分還在製作中！ "
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:143
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:143
 msgid "For now, please see https://github.com/SchnTgaiSpock/Gastronomicon"
 msgstr "現在請參閱 https://github.com/SchnTgaiSpock/Gastronomicon"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:148
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:148
 msgid "§lGastronomicon §8- §7Credits:"
-msgstr "§lGastronomicon §8- §7製作人員:"
+msgstr "§lGastronomicon §8- §7製作人員："
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:150
-msgid ""
-"§7Some head textures were taken and/or modified from https://minecraft-heads."
-"com/ and https://headdb.org/"
-msgstr "§7某些頭像紋理取自且/或修改自:https://minecraft-heads.com/ 和 https://headdb.org/"
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:150
+msgid "§7Some head textures were taken and/or modified from https://minecraft-heads.com/ and https://headdb.org/"
+msgstr "§7某些頭像紋理取自且/或修改自：https://minecraft-heads.com/ 和 https://headdb.org/"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:158
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:183
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:158
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:183
 msgid "§lGastronomicon&7> &cYou do not have permission to check your profile!"
-msgstr "§lGastronomicon&7> &c你沒有權限檢查你的個人資料!"
+msgstr "§lGastronomicon&7> &c你沒有權限檢查你的個人資料！"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:160
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:160
 msgid "Proficiencies:"
-msgstr "熟練度:"
+msgstr "熟練度："
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:170
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:202
-msgid ""
-"§lGastronomicon&7> &cYou do not have permission to check another player's "
-"profile!"
-msgstr "§lGastronomicon&7> &c您沒有權限檢查其他玩家的個人資料!"
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:170
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:202
+msgid "§lGastronomicon&7> &cYou do not have permission to check another player's profile!"
+msgstr "§l美食家&7＞&c你沒有權限檢查其他玩家的個人資料！"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:173
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:173
 msgid "'s Proficiencies:"
-msgstr "的熟練度:"
+msgstr "的熟練度："
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:223
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:223
 #, java-format
 msgid "Successefully set {0} proficiency to {1} for {2}"
 msgstr "已成功為 {2} 設置 {0} 的熟練度為 {1}"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:228
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:228
 #, java-format
 msgid "Successefully added {0} {1} proficiency for {2}"
 msgstr "已成功為 {2} 添加 {0} {1} 的熟練度"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:234
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:234
 #, java-format
 msgid "Successefully removed {0} {1} proficiency for {2}"
 msgstr "已成功為 {2} 移除 {0} {1} 的熟練度"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:238
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/command/GastroCommandExecutor.java:238
 msgid "Unknown mode!"
-msgstr "未知的模式!"
+msgstr "未知的模式！"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:13
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:13
 msgid "Basic Tools"
 msgstr "基本的工具"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:14
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:14
 msgid "Steel Tools"
-msgstr "鐵製工具"
+msgstr "鋼製工具"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:15
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:15
 msgid "The First Step"
-msgstr "第一步"
+msgstr "成為廚師的第一步"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:16
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:363
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:16
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:363
 msgid "Multi-Stove"
 msgstr "多功能爐具"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:17
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:379
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:17
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:379
 msgid "Grain Mill"
 msgstr "穀物磨坊"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:18
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:371
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:18
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:371
 msgid "Refrigerator"
 msgstr "冰箱"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:19
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:385
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:19
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:385
 msgid "Fermenter"
 msgstr "發酵罐"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:20
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:20
 msgid "Traps"
-msgstr "捕捉器"
+msgstr "陷阱"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:21
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:21
 msgid "Fishing Nets"
 msgstr "漁網"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:22
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:194
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:407
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:22
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:194
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:407
 msgid "Chef Android"
-msgstr "廚師安卓"
+msgstr "廚師機器人"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:23
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:440
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:23
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:440
 msgid "Electric Kitchen"
 msgstr "電動廚房"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:24
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:24
 msgid "Gathering Tools"
 msgstr "採集工具"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:25
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:65
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:25
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:65
 msgid "Raw Ingredients"
 msgstr "原材料"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:26
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:26
 msgid "Processed Ingredients"
 msgstr "加工食材"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:27
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:27
 msgid "Haute Cuisine"
 msgstr "高級料理"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:28
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:323
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroResearch.java:28
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:323
 msgid "Chef's Hat"
 msgstr "廚師的帽子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:53
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:181
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:53
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:181
 msgid "Tools"
 msgstr "工具"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:57
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:57
 msgid "Basic Machines"
-msgstr "基礎的機器"
+msgstr "基礎機器"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:61
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:61
 msgid "Electric Machines"
 msgstr "電動機器"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:69
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:69
 msgid "Food"
 msgstr "食物"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:73
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:73
 msgid "Gastronomicon"
-msgstr "美食聖典"
+msgstr "美食家"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:77
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:77
 msgid "&bBreaking Blocks"
 msgstr "&b破壞方塊"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:78
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:85
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:98
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:78
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:85
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:98
 msgid "&7This item is obtained by"
-msgstr "&7這個物品獲得的方式:"
+msgstr "&7這個物品獲得的方式："
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:79
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:79
 msgid "&7breaking the displayed"
-msgstr "&7破壞展示物"
+msgstr "&7破壞所顯示"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:80
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:80
 msgid "&7blocks."
-msgstr "&7方塊"
+msgstr "&7的方塊"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:84
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:84
 msgid "&bHarvesting Crops"
 msgstr "&b收穫農作物"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:86
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:86
 msgid "&7harvesting the displayed"
-msgstr "&7收穫展示物"
+msgstr "&7採收所顯示"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:87
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:87
 msgid "&7crops."
-msgstr "&7作物"
+msgstr "&7的作物"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:91
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:91
 msgid "&bMob Drops"
-msgstr "&b怪物掉落物品"
+msgstr "&b生物掉落物品"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:92
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:92
 msgid "&7This item is dropped by"
-msgstr "&7這個物品掉落是由:"
+msgstr "&7這個物品掉落是由："
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:93
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:93
 msgid "&7the displayed mobs."
-msgstr "&7顯示的生物"
+msgstr "&7狩獵所顯示的生物"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:97
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:97
 msgid "&bTrapping"
 msgstr "&b陷阱捕獲"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:99
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:99
 msgid "&7catching it in the displayed"
-msgstr "&7在顯示中捕獲它"
+msgstr "&7用所顯示的"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:100
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:100
 msgid "&7trap."
-msgstr "&7陷阱"
+msgstr "&7陷阱捕獲它"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:104
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:104
 msgid "&bCulinary Workbench"
 msgstr "&b烹飪工作臺"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:105
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:112
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:119
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:126
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:133
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:105
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:112
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:119
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:126
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:133
 msgid "&7Craft this item as shown in a"
 msgstr "&7按照顯示的方式製作這個物品"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:106
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:106
 msgid "&7Culinary Workbench with the tool(s)"
 msgstr "&7使用工具在烹飪工作臺上進行操作"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:107
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:114
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:121
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:128
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:135
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:107
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:114
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:121
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:128
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:135
 msgid "&7listed below."
 msgstr "&7如下所列"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:111
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:111
 msgid "&bMulti-Stove"
 msgstr "&b多功能爐灶"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:113
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:113
 msgid "&7Multi-Stove with the tool(s)"
 msgstr "&7使用工具在多功能爐灶上進行操作"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:118
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:118
 msgid "&bRefrigerator"
 msgstr "&b冰箱"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:120
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:120
 msgid "&7Refrigerator with the tool(s)"
 msgstr "&7使用工具在冰箱上進行操作"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:125
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:125
 msgid "&bMill"
 msgstr "&b磨坊"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:127
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:127
 msgid "&7Grain Mill with the tool(s)"
-msgstr "&7使用工具在磨粉機上進行操作"
+msgstr "&7使用工具在穀物磨坊上進行操作"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:132
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:132
 msgid "&bFermenter"
 msgstr "&b發酵罐"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:134
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:134
 msgid "&7Fermenter with the tool(s)"
 msgstr "&7使用工具在發酵罐上進行操作"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:139
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:139
 msgid "Tools Required"
 msgstr "需要的工具"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:143
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:143
 msgid "&5Container Required"
 msgstr "&5需要的容器"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:147
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:147
 msgid "&aBiome Required"
-msgstr "&a需要的生物群系"
+msgstr "&a需要的生態域"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:151
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:151
 msgid "&bClimate Required"
 msgstr "&b需要的氣候"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:155
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:155
 msgid "&cNone"
 msgstr "&c無"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:159
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:159
 msgid "&fGoat"
 msgstr "&f山羊"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:163
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:163
 msgid "&fSalmon"
 msgstr "&f鮭魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:167
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:167
 msgid "&fGuardian"
-msgstr "&f守衛者"
+msgstr "&f深海守衛"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:171
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:171
 msgid "&fSquid"
-msgstr "&f烏賊"
+msgstr "&f魷魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:177
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:177
 msgid "&9Ingredients"
 msgstr "&9食材"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:179
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:179
 msgid "&5Container"
 msgstr "&5容器"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:183
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:183
 msgid "&6Output"
 msgstr "&6輸出"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:185
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:185
 msgid "&aClick to craft"
 msgstr "&a點擊製作"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:188
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:188
 msgid "&fFood Slot"
 msgstr "&f食物欄位"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:188
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:188
 msgid "&7Place food in the slot below"
 msgstr "&7請將食物放在下方的槽口中"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:190
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:190
 msgid "&aClick to train"
 msgstr "&a點擊進行訓練"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:192
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:192
 msgid "&9Input"
 msgstr "&9輸入"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:196
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:196
 msgid "&cNot enough energy"
 msgstr "&c能量不足"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:198
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:198
 msgid "&cNo android detected"
-msgstr "&c未檢測到 Android 設備"
+msgstr "&c未偵測到機器人"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:200
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:200
 msgid "&cIncorrect recipe"
 msgstr "&c食譜不正確"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:202
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:202
 msgid "&cNot in water"
 msgstr "&c不要放在水中"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:207
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:419
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:207
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:419
 msgid "Fishing Net"
 msgstr "漁網"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:219
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:219
 msgid "Kitchen Knife"
-msgstr "廚房刀"
+msgstr "菜刀"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:225
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:225
 msgid "Rolling Pin"
 msgstr "擀麵棍"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:231
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:231
 msgid "Blender"
 msgstr "攪拌機"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:237
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:237
 msgid "Mortar and Pestle"
 msgstr "研缽和研杵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:243
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:243
 msgid "Peeler"
 msgstr "削皮刀"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:249
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:249
 msgid "Whisk"
 msgstr "打蛋器"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:255
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:255
 msgid "Distillation Chamber"
 msgstr "蒸餾室"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:263
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:263
 msgid "Baking Tray"
 msgstr "烤盤"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:269
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:269
 msgid "Frying Pan"
-msgstr "煎鍋"
+msgstr "平底鍋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:275
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:275
 msgid "Steel Pot"
 msgstr "不鏽鋼鍋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:283
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:283
 msgid "Steel Bowl"
 msgstr "不鏽鋼碗"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:291
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:291
 msgid "Steel Wire"
 msgstr "鋼絲"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:297
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:297
 msgid "Steel Spring"
 msgstr "鋼彈簧"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:303
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:303
 msgid "Crab Trap"
 msgstr "螃蟹籠"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:304
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:304
 msgid "Used to catch crabs."
 msgstr "用來捕捉螃蟹的工具"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:305
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:314
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:305
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:314
 msgid "Place on the ground and right click"
 msgstr "將其放在地上，然後右鍵點擊"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:306
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:315
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:306
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:315
 msgid "when white particles appear"
 msgstr "當白色粒子出現時"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:312
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:312
 msgid "Hunting Trap"
 msgstr "捕獵陷阱"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:313
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:313
 msgid "Used to catch certain animals."
 msgstr "用於捕捉特定動物的陷阱"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:334
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:334
 msgid "Wooden Sickle"
 msgstr "木製鐮刀"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:335
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:342
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:349
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:335
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:342
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:349
 msgid "Increases drops from some crops"
 msgstr "增加某些作物的掉落量"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:341
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:341
 msgid "Steel Sickle"
 msgstr "鋼製鐮刀"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:348
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:348
 msgid "Reinforced Sickle"
 msgstr "強化鐮刀"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:357
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:357
 msgid "Culinary Workbench"
 msgstr "烹飪工作台"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:365
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:373
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:390
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:401
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:365
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:373
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:390
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:401
 msgid "/Craft"
-msgstr "/Craft (合成)"
+msgstr "/每次合成"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:386
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:397
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:386
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:397
 msgid "&eShift Right Click &rwith a water"
-msgstr "&e使用右鍵加上按住 Shift &r的方式與水互動"
+msgstr "&e蹲下右鍵與水互動"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:387
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:398
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:387
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:398
 msgid "bucket or water bottle to refill"
 msgstr "使用水桶或水瓶進行補充"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:389
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:400
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:389
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:400
 msgid " Buffer"
-msgstr "緩衝器"
+msgstr " 緩衝"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:396
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:396
 msgid "Large Fermenter"
 msgstr "大型發酵罐"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:413
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:413
 msgid "Chef Android Trainer"
-msgstr "主廚安卓訓練師"
+msgstr "廚師機器人訓練師"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:426
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:426
 msgid "Fishing Net &7- &eII"
 msgstr "漁網 &7- &eII"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:433
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:433
 msgid "Fishing Net &7- &eIII"
 msgstr "漁網 &7- &eIII"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:450
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:450
 msgid "Electric Kitchen &7- &eII"
 msgstr "電動廚房 &7- &eII"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:460
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:460
 msgid "Electric Kitchen &7- &eIII"
 msgstr "電動廚房 &7- &eIII"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:473
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:473
 msgid "Rice"
 msgstr "米飯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:478
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:478
 msgid "Quinoa"
 msgstr "藜麥"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:483
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:483
 msgid "Oats"
 msgstr "燕麥"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:488
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:488
 msgid "Soybeans"
 msgstr "大豆"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:493
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:493
 msgid "Barley"
 msgstr "大麥"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:498
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:498
 msgid "Barley Seeds"
 msgstr "大麥種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:503
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:503
 msgid "Rye"
 msgstr "黑麥"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:508
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:508
 msgid "Rye Seeds"
 msgstr "黑麥種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:513
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:513
 msgid "Sorghum"
 msgstr "高粱"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:518
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:518
 msgid "Sorghum Seeds"
 msgstr "高粱種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:523
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:523
 msgid "Turnip"
 msgstr "大頭菜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:528
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:528
 msgid "Turnip Seeds"
 msgstr "大頭菜種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:533
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:533
 msgid "Squash"
 msgstr "南瓜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:538
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:538
 msgid "Squash Seeds"
 msgstr "南瓜種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:543
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:543
 msgid "Celery"
 msgstr "芹菜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:548
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:548
 msgid "Bok Choy"
 msgstr "白菜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:553
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:553
 msgid "Bok Choy Seeds"
 msgstr "白菜種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:558
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:558
 msgid "Broccoli"
 msgstr "綠花椰菜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:563
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:563
 msgid "Broccoli Seeds"
 msgstr "綠花椰菜種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:568
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:568
 msgid "Cucumber"
 msgstr "黃瓜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:573
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:573
 msgid "Cucumber Seeds"
 msgstr "黃瓜種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:578
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:578
 msgid "Basil"
 msgstr "羅勒"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:583
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:583
 msgid "Basil Seeds"
 msgstr "羅勒種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:588
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:588
 msgid "Spinach"
 msgstr "菠菜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:593
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:593
 msgid "Spinach Seeds"
 msgstr "菠菜種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:598
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:598
 msgid "Brussles Sprouts"
-msgstr "小球甘藍"
+msgstr "抱子甘藍"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:603
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:603
 msgid "Mint"
 msgstr "薄荷"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:608
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:608
 msgid "Mint Seeds"
 msgstr "薄荷種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:613
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:613
 msgid "Chili Pepper"
 msgstr "辣椒"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:618
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:618
 msgid "Chili Pepper Seeds"
 msgstr "辣椒種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:623
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:623
 msgid "Parsley"
 msgstr "歐芹"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:628
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:628
 msgid "Parsley Seeds"
 msgstr "歐芹種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:633
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:633
 msgid "Cassava"
 msgstr "木薯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:638
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:638
 msgid "Lentils"
 msgstr "扁豆"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:643
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:643
 msgid "Peanuts"
 msgstr "花生"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:648
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:648
 msgid "Beans"
-msgstr "豆類"
+msgstr "豆子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:653
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:653
 msgid "Peas"
 msgstr "豌豆"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:658
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:658
 msgid "Asparagus"
 msgstr "蘆筍"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:663
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:663
 msgid "Asparagus Seeds"
 msgstr "蘆筍種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:668
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:668
 msgid "Green Onion"
 msgstr "蔥"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:673
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:673
 msgid "Green Onion Seeds"
 msgstr "蔥種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:678
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:678
 msgid "Cauliflower"
 msgstr "白花椰菜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:683
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:683
 msgid "Cauliflower Seeds"
 msgstr "白花椰菜種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:688
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:688
 msgid "Avocado"
 msgstr "酪梨"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:693
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:693
 msgid "Avocado Pit"
 msgstr "酪梨果核"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:698
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:698
 msgid "Turmeric"
 msgstr "薑黃"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:703
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:703
 msgid "Cumin Seeds"
 msgstr "孜然籽"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:708
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:708
 msgid "Red Beans"
 msgstr "紅豆"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:713
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:713
 msgid "Cantaloupe"
-msgstr "香瓜"
+msgstr "哈密瓜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:718
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:718
 msgid "Cantaloupe Seeds"
-msgstr "香瓜種子"
+msgstr "哈密瓜種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:723
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:723
 msgid "Honeydew Melon"
-msgstr "蜜瓜"
+msgstr "光皮洋香瓜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:728
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:728
 msgid "Honeydew Melon Seeds"
-msgstr ""
+msgstr "光皮洋香瓜種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:733
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:733
 msgid "Sesame Seeds"
-msgstr "蜜瓜種子"
+msgstr "芝麻種子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:738
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:738
 msgid "Vanilla Beans"
 msgstr "香草豆"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:743
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:743
 msgid "Vanilla Plant"
 msgstr "香草植物"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:750
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:750
 msgid "Lychee"
 msgstr "荔枝"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:754
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:754
 msgid "Lychee Sapling"
-msgstr "荔枝苗木"
+msgstr "荔枝樹苗"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:758
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:758
 msgid "Banana"
 msgstr "香蕉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:762
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:762
 msgid "Banana Sapling"
-msgstr "香蕉苗木"
+msgstr "香蕉樹苗"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:769
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:769
 msgid "Fiddleheads"
 msgstr "蕨菜嫩莖"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:774
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:774
 msgid "Truffle"
 msgstr "松露"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:779
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:779
 msgid "Enoki Mushrooms"
 msgstr "金針菇"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:784
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:784
 msgid "King Oyster Mushroom"
 msgstr "杏鮑菇"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:789
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:789
 msgid "Button Mushroom"
 msgstr "白蘑菇"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:794
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:794
 msgid "Clam"
 msgstr "蛤蜊"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:801
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:801
 msgid "Raw Chevon"
 msgstr "生山羊肉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:806
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:806
 msgid "Cooked Chevon"
-msgstr "煮熟的山羊肉"
+msgstr "烤山羊肉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:811
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:811
 msgid "Salmon Roe"
-msgstr "鮭魚子"
+msgstr "鮭魚卵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:816
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:816
 msgid "Guardian Fin"
-msgstr "守護者鰭"
+msgstr "深海守衛鰭"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:821
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:821
 msgid "Raw Squid"
 msgstr "生魷魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:826
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:826
 msgid "Cooked Squid"
-msgstr "煮熟的魷魚"
+msgstr "烤魷魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:833
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:833
 msgid "Raw Mackerel"
 msgstr "生鯖魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:837
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:837
 msgid "Cooked Mackerel"
-msgstr "煮熟的鯖魚"
+msgstr "烤鯖魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:842
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:842
 msgid "Raw Eel"
 msgstr "生鰻魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:846
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:846
 msgid "Cooked Eel"
-msgstr "煮熟的鰻魚"
+msgstr "烤鰻魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:851
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:851
 msgid "Raw Trout"
 msgstr "生鱒魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:855
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:855
 msgid "Cooked Trout"
-msgstr "煮熟的鱒魚"
+msgstr "烤鱒魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:860
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:860
 msgid "Raw Bass"
 msgstr "生鱸魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:864
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:864
 msgid "Cooked Bass"
-msgstr "煮熟的鱸魚"
+msgstr "烤鱸魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:869
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:869
 msgid "Raw Carp"
 msgstr "生鯉魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:873
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:873
 msgid "Cooked Carp"
-msgstr "煮熟的鯉魚"
+msgstr "烤鯉魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:878
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:878
 msgid "Raw Pike"
 msgstr "生梭子魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:882
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:882
 msgid "Cooked Pike"
-msgstr "煮熟的梭子魚"
+msgstr "烤梭子魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:887
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:887
 msgid "Raw Tuna"
 msgstr "生鮪魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:892
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:892
 msgid "Cooked Tuna"
-msgstr "煮熟的鮪魚"
+msgstr "烤鮪魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:897
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:897
 msgid "Shrimp"
 msgstr "蝦"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1020
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1020
 msgid "Crab"
 msgstr "螃蟹"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1025
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1025
 msgid "Raw Turkey"
 msgstr "生火雞肉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1029
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1029
 msgid "Cooked Turkey"
-msgstr "煮熟的火雞肉"
+msgstr "烤火雞肉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1038
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1038
 msgid "Cooked Rice"
 msgstr "煮熟的米飯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1043
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1043
 msgid "Barley Flour"
 msgstr "大麥粉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1048
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1048
 msgid "Sorghum Flour"
 msgstr "高粱粉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1053
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1053
 msgid "Rye Flour"
 msgstr "黑麥粉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1058
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1058
 msgid "Dough"
 msgstr "麵團"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1063
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1063
 msgid "Toast"
 msgstr "吐司"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1068
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1068
 msgid "Naan Bread"
-msgstr "烤餅"
+msgstr "饢餅"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1073
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1073
 msgid "Peanut Butter"
 msgstr "花生醬"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1085
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1085
 msgid "Fried Egg"
 msgstr "煎蛋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1090
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1090
 msgid "Hard-boiled Egg"
-msgstr "煮熟的蛋"
+msgstr "水煮蛋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1095
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1095
 msgid "Scrambled Eggs"
 msgstr "炒蛋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1100
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1100
 msgid "Custard"
 msgstr "卡士達"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1105
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1105
 msgid "Caramel"
 msgstr "焦糖"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1110
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1110
 msgid "Marmalade"
 msgstr "果醬"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1115
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1115
 msgid "Ketchup"
 msgstr "番茄醬"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1127
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1127
 msgid "Pulled Pork"
 msgstr "手撕豬肉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1132
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1132
 msgid "Ground Beef"
 msgstr "牛絞肉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1137
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1137
 msgid "Baked Beans"
 msgstr "焗豆"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1142
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1142
 msgid "Miso"
 msgstr "味噌"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1147
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1147
 msgid "Tofu"
 msgstr "豆腐"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1152
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1152
 msgid "Soy Sauce"
 msgstr "醬油"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1164
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1164
 msgid "Turmeric Powder"
 msgstr "薑黃粉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1169
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1169
 msgid "Red Bean Paste"
 msgstr "紅豆餡"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1174
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1174
 msgid "Tapioca Starch"
 msgstr "木薯澱粉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1179
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1179
 msgid "Tapioca Pearls"
 msgstr "珍珠粉圓"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1188
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1188
 msgid "PB&J Sandwich"
 msgstr "花生醬和果醬三明治"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1196
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1196
 msgid "Marmalade Sandwich"
 msgstr "橘子果醬三明治"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1204
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1204
 msgid "Baked Beans and Toast"
-msgstr "烤豆和烤土司"
+msgstr "烤豆和烤吐司"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1212
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1212
 msgid "Avocado Toast"
 msgstr "酪梨吐司"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1220
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1220
 msgid "Tuna Sandwich"
 msgstr "鮪魚三明治"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1228
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1228
 msgid "Breakfast Sandwich"
 msgstr "早餐三明治"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1236
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1236
 msgid "Ham Sandwich"
 msgstr "火腿三明治"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1244
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1244
 msgid "Egg Salad Sandwich"
 msgstr "蛋沙拉三明治"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1252
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1252
 msgid "Roast Beef Sandwich"
 msgstr "烤牛肉三明治"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1262
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1262
 msgid "Greek Salad"
 msgstr "希臘沙拉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1272
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1272
 msgid "Caesar Salad"
 msgstr "凱薩沙拉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1282
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1282
 msgid "Fiddlehead Salad"
 msgstr "蕨菜沙拉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1294
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1294
 msgid "Pan-seared Salmon"
 msgstr "香煎鮭魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1301
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1301
 msgid "Fried Shrimp"
 msgstr "炸蝦"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1309
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1309
 msgid "Tempura Shrimp"
-msgstr "海老"
+msgstr "天婦羅"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1317
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1317
 msgid "Tempura Broccoli"
-msgstr "炸綠花椰菜"
+msgstr "天婦羅綠花椰菜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1325
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1325
 msgid "Fried Calamari"
 msgstr "炸魷魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1334
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1334
 msgid "Chicken Pesto Pasta"
-msgstr "雞肉香蒜肉義大利麵"
+msgstr "雞肉青醬義大利麵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1342
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1342
 msgid "Squid Ink Pasta"
-msgstr "魷魚墨意大利面"
+msgstr "魷魚墨意大利麵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1349
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1349
 msgid "Glowing Squid Ink Pasta"
-msgstr "發光墨魚義大利麵"
+msgstr "發光魷魚墨義大利麵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1357
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1357
 msgid "Tuna Casserole"
 msgstr "砂鍋鮪魚"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1365
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1365
 msgid "Chicken Ravioli"
 msgstr "雞肉義大利餃"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1373
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1373
 msgid "Mushroom Ravioli"
 msgstr "蘑菇義大利餃"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1383
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1383
 msgid "Oatmeal"
 msgstr "燕麥片"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1393
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1393
 msgid "Barley Porridge"
 msgstr "大麥粥"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1403
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1403
 msgid "Congee"
-msgstr "粥、稀飯"
+msgstr "粥"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1413
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1413
 msgid "Chicken Soup"
 msgstr "雞湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1423
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1423
 msgid "Chicken and Quinoa Soup"
 msgstr "雞肉藜麥湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1433
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1433
 msgid "Chicken Noodle Soup"
 msgstr "雞肉麵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1444
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1444
 msgid "Chicken Noodle Soup w/ Bok Choy"
 msgstr "雞肉小白菜湯麵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1455
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1455
 msgid "Split Pea Soup"
 msgstr "豌豆湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1463
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1463
 msgid "Ham and Split Pea Soup"
 msgstr "火腿豌豆湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1471
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1471
 msgid "Lentil Soup"
 msgstr "扁豆湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1479
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1479
 msgid "Beef and Lentil Soup"
 msgstr "牛肉扁豆湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1487
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1487
 msgid "Carrot Soup"
 msgstr "胡蘿蔔湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1495
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1495
 msgid "Mushroom Barley Soup"
 msgstr "蘑菇大麥湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1503
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1503
 msgid "Chicken Barley Soup"
 msgstr "雞肉大麥湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1511
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1511
 msgid "Beef Barley Soup"
 msgstr "牛肉大麥湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1519
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1519
 msgid "Cream of Mushroom Soup"
-msgstr "忌廉磨菇湯"
+msgstr "奶油蘑菇濃湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1527
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1527
 msgid "Cream of Broccoli Soup"
 msgstr "綠花椰菜奶油濃湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1535
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1535
 msgid "Cream of Asparagus Soup"
 msgstr "蘆筍奶油濃湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1543
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1543
 msgid "Cream of Cauliflower Soup"
 msgstr "白花椰菜奶油濃湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1551
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1551
 msgid "Miso Soup"
 msgstr "味噌湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1559
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1559
 msgid "Guardian Fin Soup"
-msgstr "守護者鰭湯"
+msgstr "深海守衛湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1567
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1567
 msgid "Broccoli Chowder"
 msgstr "綠花椰菜巧達濃湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1574
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1574
 msgid "Salmon Chowder"
 msgstr "鮭魚巧達濃湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1581
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1581
 msgid "Potato Chowder"
 msgstr "馬鈴薯巧達濃湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1588
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1588
 msgid "Corn Chowder"
 msgstr "玉米巧達濃湯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1595
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1595
 msgid "Beef Stew"
 msgstr "燉牛肉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1603
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1603
 msgid "Clam Stew"
 msgstr "燉蛤蜊"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1611
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1611
 msgid "Crab Hotpot"
 msgstr "螃蟹火鍋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1621
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1621
 msgid "BBQ Steak"
 msgstr "燒烤牛排"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1628
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1628
 msgid "BBQ Pork"
 msgstr "燒烤豬排"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1635
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1635
 msgid "BBQ Chicken"
 msgstr "燒烤雞肉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1642
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1642
 msgid "BBQ Mutton"
 msgstr "燒烤羊肉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1649
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1649
 msgid "Butter Chicken"
 msgstr "奶油雞肉"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1659
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1659
 msgid "Butter Chicken with Naan Bread"
-msgstr "奶油雞肉配囊餅"
+msgstr "奶油雞肉配饢餅"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1667
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1667
 msgid "Shrimp Fried Rice"
-msgstr "蝦子炒飯"
+msgstr "蝦仁炒飯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1674
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1674
 msgid "Curry Rice"
 msgstr "咖哩飯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1682
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1682
 msgid "Rice Omelette"
 msgstr "蛋包飯"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1690
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1690
 msgid "Rice Ball"
 msgstr "飯糰"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1699
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1699
 msgid "Beef Udon"
 msgstr "牛肉烏龍麵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1707
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1707
 msgid "Chicken Udon"
 msgstr "雞肉烏龍麵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1715
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1715
 msgid "Vegetable Udon"
 msgstr "蔬菜烏龍麵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1723
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1723
 msgid "Stir-fry Noodles"
 msgstr "炒麵"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1730
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1730
 msgid "Shrimp Dumplings"
 msgstr "蝦子餃子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1737
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1737
 msgid "Chicken Potstickers"
 msgstr "雞肉鍋貼"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1744
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1744
 msgid "Beef Potstickers"
 msgstr "牛肉鍋貼"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1751
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1751
 msgid "Pierogies"
 msgstr "波蘭餃子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1758
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1758
 msgid "Bacon Pierogies"
 msgstr "培根波蘭餃子"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1765
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1765
 msgid "Custard Buns"
 msgstr "奶黃包"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1772
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1772
 msgid "Red Bean Buns"
 msgstr "豆沙包"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1779
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1779
 msgid "Taiyaki"
 msgstr "鯛魚燒"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1788
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1788
 msgid "Tempura Shrimp Roll"
-msgstr "海老花壽司捲"
+msgstr "天婦羅炸蝦壽司捲"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1795
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1795
 msgid "Dynamite Roll"
 msgstr "酪梨壽司捲"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1802
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1802
 msgid "Kappa Roll"
 msgstr "小黃瓜壽司捲"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1809
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1809
 msgid "California Roll"
 msgstr "加州壽司捲"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1816
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1816
 msgid "Salmon Roe Sushi Roll"
 msgstr "鮭魚卵壽司"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1823
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1823
 msgid "Red Bean Glutinous Rice Balls"
 msgstr "紅豆湯圓"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1830
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1830
 msgid "Peanut Glutinous Rice Balls"
 msgstr "花生湯圓"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1837
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1837
 msgid "Sesame Glutinous Rice Balls"
 msgstr "芝麻湯圓"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1846
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1846
 msgid "Mashed Potatoes"
 msgstr "馬鈴薯泥"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1853
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1853
 msgid "Mashed Turnips"
 msgstr "蘿蔔泥"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1860
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1860
 msgid "Fish and Chips"
 msgstr "炸魚薯條"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1867
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1867
 msgid "Turkey Roast"
 msgstr "烤火雞"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1874
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1874
 msgid "Chocolate Truffle"
 msgstr "松露巧克力"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1883
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1883
 msgid "Double Chocolate Muffin"
 msgstr "雙重巧克力馬芬"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1890
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1890
 msgid "Carrot Muffin"
 msgstr "胡蘿蔔馬芬"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1897
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1897
 msgid "Cranberry Muffin"
 msgstr "蔓越莓馬芬"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1904
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1904
 msgid "Raisin Muffin"
 msgstr "葡萄乾馬芬"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1913
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1913
 msgid "Vanilla Ice Cream"
 msgstr "香草冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1920
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1920
 msgid "Chocolate Ice Cream"
 msgstr "巧克力冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1927
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1927
 msgid "Mint Ice Cream"
 msgstr "薄荷冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1934
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1934
 msgid "Cookie Dough Ice Cream"
-msgstr "餅乾麵糰冰淇淋"
+msgstr "餅乾麵團冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1941
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1941
 msgid "Peanut Butter Ice Cream"
 msgstr "花生醬冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1948
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1948
 msgid "Red Bean Ice Cream"
 msgstr "紅豆冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1955
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1955
 msgid "Green Tea Ice Cream"
 msgstr "綠茶冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1962
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1962
 msgid "Strawberry Ice Cream"
 msgstr "草莓冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1969
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1969
 msgid "Blueberry Ice Cream"
 msgstr "藍莓冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1976
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1976
 msgid "Cranberry Ice Cream"
 msgstr "蔓越莓冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1983
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1983
 msgid "Cowberry Ice Cream"
 msgstr "越橘冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1990
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1990
 msgid "Coconut Ice Cream"
 msgstr "椰子冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1997
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:1997
 msgid "Cherry Ice Cream"
 msgstr "櫻桃冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2004
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2004
 msgid "Raspberry Ice Cream"
 msgstr "樹莓冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2011
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2011
 msgid "Caramel Ice Cream"
 msgstr "焦糖冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2018
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2018
 msgid "Orange Ice Cream"
-msgstr "橘子冰淇淋"
+msgstr "柳橙冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2025
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2025
 msgid "Peach Ice Cream"
 msgstr "水蜜桃冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2032
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2032
 msgid "Pineapple Ice Cream"
 msgstr "鳳梨冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2039
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2039
 msgid "Chorus Ice Cream"
 msgstr "歌萊果冰淇淋"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2047
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2047
 msgid "Shaved Ice"
 msgstr "刨冰"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2054
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2054
 msgid "Strawberry Shaved Ice"
 msgstr "草莓刨冰"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2061
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2061
 msgid "Banana Shaved Ice"
 msgstr "香蕉刨冰"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2068
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2068
 msgid "Lemon Shaved Ice"
 msgstr "檸檬刨冰"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2077
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2077
 msgid "Candy Apple"
 msgstr "蘋果糖"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2084
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2084
 msgid "Donut"
 msgstr "甜甜圈"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2091
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2091
 msgid "Honey Dip Donut"
 msgstr "蜂蜜沾甜甜圈"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2098
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2098
 msgid "Golden Chocolate Donut"
 msgstr "金巧克力甜甜圈"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2105
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2105
 msgid "Strawberry Cheesecake"
 msgstr "草莓起司蛋糕"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2112
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2112
 msgid "Strawberry Cupcake"
 msgstr "草莓杯子蛋糕"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2119
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2119
 msgid "Lemon Tart"
 msgstr "檸檬塔"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2127
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2127
 msgid "Chorus Pie"
 msgstr "歌萊果派"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2135
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2135
 msgid "Popped Sorghum"
-msgstr "爆米花"
+msgstr "高粱爆米花"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2142
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2142
 msgid "Enchanted Golden Carrot"
 msgstr "附魔金胡蘿蔔"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2157
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2157
 msgid "Enchanted Glistering Melon Slice"
 msgstr "附魔金西瓜"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2174
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2174
 msgid "V7"
-msgstr "V7"
+msgstr "蔬菜七元素汁"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2183
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2183
 msgid "Bubble Milk Tea"
 msgstr "珍珠奶茶"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2197
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2197
 msgid "Cantaloupe Bubble Tea"
 msgstr "哈密瓜珍珠奶茶"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2211
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2211
 msgid "Honeydew Melon Bubble Tea"
-msgstr "香瓜珍珠奶茶"
+msgstr "光皮洋香瓜珍珠奶茶"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2225
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2225
 msgid "Apple Bubble Tea"
 msgstr "蘋果珍珠奶茶"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2241
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2241
 msgid "Red Wine"
-msgstr "紅酒"
+msgstr "紅葡萄酒"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2259
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2259
 msgid "Beer"
 msgstr "啤酒"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2277
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2277
 msgid "Apple Cider"
-msgstr "蘋果醋"
+msgstr "蘋果酒"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2295
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2295
 msgid "Rice Wine"
 msgstr "米酒"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2313
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2313
 msgid "Vodka"
 msgstr "伏特加"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2331
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2331
 msgid "Rum"
 msgstr "蘭姆酒"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2349
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/GastroStacks.java:2349
 msgid "Whiskey"
 msgstr "威士忌"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/food/SimpleGastroFood.java:49
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/food/SimpleGastroFood.java:49
 msgid "&7Tools/Container Required:"
-msgstr "&7需要的工具/容器:"
+msgstr "&7需要的工具/容器："
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:95
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:106
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:116
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:95
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:106
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:116
 msgid "&ePlease place a valid food item in the middle slot"
-msgstr "&e請將一個有效的食品項目放入中間位置"
+msgstr "&e請將一個有效的食品放入中間位置"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:100
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:100
 msgid "The output slot is full!"
-msgstr "輸出欄位已滿!"
+msgstr "輸出欄位已滿！"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:130
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/ChefAndroidTrainer.java:130
 msgid "&eYou are not proficient enough in this recipe! Required: "
-msgstr "&e您在這道食譜上的熟練度不足!要求:"
+msgstr "&e你在這道食譜上的熟練度不足！需要："
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:56
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:56
 msgid "&7Temperature: &eLOW"
-msgstr "&7溫度:&e低溫"
+msgstr "&7溫度：&e低溫"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:58
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:63
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:58
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:63
 msgid "&bLeft-click &7to increase"
 msgstr "&b左鍵點擊&7以增加溫度"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:61
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:61
 msgid "&7Temperature: &6MEDIUM"
-msgstr "&7溫度:&6中溫"
+msgstr "&7溫度：&6中溫"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:64
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:69
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:64
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:69
 msgid "&bRight-click &7to decrease"
 msgstr "&b右鍵點擊&7以降低溫度"
 
-#: main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:67
+#: src/main/java/io/github/schntgaispock/gastronomicon/core/slimefun/items/workstations/manual/MultiStove.java:67
 msgid "&7Temperature: &cHIGH"
-msgstr "&7溫度:&c高溫"
+msgstr "&7溫度：&c高溫"
 
-#: main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:29
-#: main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:31
+#: src/main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:29
+#: src/main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:31
 msgid "No android"
-msgstr "不使用 Android"
+msgstr "無機器人"
 
-#: main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:39
+#: src/main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:39
 msgid "&7| Not in water"
-msgstr "&7| 不放入水中"
+msgstr "&7｜不放入水中"
 
-#: main/java/io/github/schntgaispock/gastronomicon/util/item/ItemUtil.java:73
-msgid "Slowness"
-msgstr "緩慢"
-
-#: main/java/io/github/schntgaispock/gastronomicon/util/item/ItemUtil.java:74
-msgid "Haste"
-msgstr "迅速"
-
-#: main/java/io/github/schntgaispock/gastronomicon/util/item/ItemUtil.java:75
-msgid "Mining Fatigue"
-msgstr "挖掘疲勞"
-
-#: main/java/io/github/schntgaispock/gastronomicon/util/item/ItemUtil.java:76
-msgid "Strength"
-msgstr "力量"
-
-#: main/java/io/github/schntgaispock/gastronomicon/util/item/ItemUtil.java:77
-msgid "Instant Health"
-msgstr "即時生命恢復"
-
-#: main/java/io/github/schntgaispock/gastronomicon/util/item/ItemUtil.java:78
-msgid "Instant Damage"
-msgstr "即時傷害"
-
-#: main/java/io/github/schntgaispock/gastronomicon/util/item/ItemUtil.java:79
-msgid "Nausea"
-msgstr "噁心"
-
-#: main/java/io/github/schntgaispock/gastronomicon/util/item/ItemUtil.java:80
-msgid "Resistance"
-msgstr "抗性"
-
-#: main/java/io/github/schntgaispock/gastronomicon/util/item/ItemUtil.java:81
-msgid "Bad Luck"
-msgstr "厄運"
