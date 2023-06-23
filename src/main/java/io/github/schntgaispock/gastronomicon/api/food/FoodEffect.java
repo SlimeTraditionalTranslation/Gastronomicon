@@ -6,8 +6,6 @@ import java.util.logging.Level;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import net.guizhanss.guizhanlib.minecraft.helper.inventory.ItemStackHelper;
-import net.guizhanss.guizhanlib.minecraft.helper.potion.PotionEffectTypeHelper;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -29,6 +27,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
+import org.mini2Dx.gettext.GetText;
 
 /**
  * Represents an effect that activates when a player eats a {@link GastroFood}
@@ -95,7 +94,7 @@ public class FoodEffect {
     public static FoodEffect heal(int health) {
         final int h = Math.max(health, 1);
         final int ph = (int) Math.ceil(h * PERFECT_MULTIPLIER_HEALTH);
-        return new FoodEffect("&a生命值 +" + h, "&a生命值 +" + ph, (Player player, Boolean isPerfect) -> {
+        return new FoodEffect(GetText.tr("&aHealth +") + h, GetText.tr("&aHealth +") + ph, (Player player, Boolean isPerfect) -> {
             player.setHealth(Math.min(player.getHealth() + (isPerfect ? ph : h),
                 player.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue()));
         });
@@ -111,8 +110,8 @@ public class FoodEffect {
         final int a = Math.max(amplifier, 0);
         final int pa = amplifier + PERFECT_BONUS_POTION_LEVEL;
         return new FoodEffect(
-            color + PotionEffectTypeHelper.getName(effectType) + " " + NumberUtil.asRomanNumeral(a + 1) + " (" + d + " 秒)",
-            color + PotionEffectTypeHelper.getName(effectType) + " " + NumberUtil.asRomanNumeral(pa + 1) + " (" + pd + " 秒)",
+            color + ItemUtil.getPotionName(effectType) + " " + NumberUtil.asRomanNumeral(a + 1) + " (" + d + GetText.tr("s)"),
+            color + ItemUtil.getPotionName(effectType) + " " + NumberUtil.asRomanNumeral(pa + 1) + " (" + pd + GetText.tr("s)"),
             (Player player, Boolean isPerfect) -> {
                 player.addPotionEffect(new PotionEffect(effectType, 20 * (isPerfect ? pd : d), (isPerfect ? pa : a),
                     ambience, particles, icon));
@@ -369,7 +368,7 @@ public class FoodEffect {
     @Nonnull
     @ParametersAreNonnullByDefault
     public static FoodEffect removePotionEffect(PotionEffectType type) {
-        final String desc = "&b清除 " + PotionEffectTypeHelper.getName(type) + " 药水效果";
+        final String desc = GetText.tr("&bClears ") + ItemUtil.getPotionName(type) + GetText.tr(" effects");
         return new FoodEffect(desc, desc, (Player player, Boolean isPerfect) -> {
             player.removePotionEffect(type);
         });
@@ -386,7 +385,7 @@ public class FoodEffect {
     public static FoodEffect xp(int xp) {
         final int x = Math.max(xp, 1);
         final int px = (int) Math.ceil(x * PERFECT_MULTIPLIER_XP);
-        return new FoodEffect("&e经验值 +" + Math.round(x), "&e经验值 +" + px, (Player player, Boolean isPerfect) -> {
+        return new FoodEffect(GetText.tr("&eXP +") + Math.round(x), GetText.tr("&eXP +") + px, (Player player, Boolean isPerfect) -> {
             player.giveExp(isPerfect ? px : x);
         });
     }
@@ -394,10 +393,10 @@ public class FoodEffect {
     private static FoodEffect _giveItem(ItemStack item) {
         final int a = item.getAmount();
         final int pa = (int) Math.ceil(a * PERFECT_MULTIPLIER_ITEM_AMOUNT);
-        final String name = ItemStackHelper.getName(item);
+        final String name = item.hasItemMeta() ? item.getItemMeta().getDisplayName() : item.getType().name();
         return new FoodEffect(
-            "&7获得 " + a + "x " + name,
-            "&7获得 " + pa + "x " + name,
+            GetText.tr("&7Gives {0}x {1}", a, name),
+            GetText.tr("&7Gives {0}x {1}", pa, name),
             (Player player, Boolean isPerfect) -> {
                 player.getInventory().addItem(item);
             });
@@ -473,8 +472,8 @@ public class FoodEffect {
     public static FoodEffect giveSlimefunItem(@Nonnull String id, int amount) {
         final SlimefunItem sfItem = SlimefunItem.getById(id);
         if (sfItem == null) {
-            Gastronomicon.log(Level.WARNING, "无法创建给予粘液物品 \"" + id + "\" 的 FoodEffect 因为物品不存在!"
-                + "请确保粘液科技与附属均为最新版!");
+            Gastronomicon.log(Level.WARNING, "Cannot produce a FoodEffect that gives Slimefun item \"" + id +
+                "\" because it doesn't exist. Make sure to keep Slimefun and addons up to date!");
             return giveItem(Material.AIR, 1);
         }
         return giveItem(sfItem.getItem());
@@ -490,8 +489,8 @@ public class FoodEffect {
     public static FoodEffect giveSlimefunItem(@Nonnull String id) {
         final SlimefunItem sfItem = SlimefunItem.getById(id);
         if (sfItem == null) {
-            Gastronomicon.log(Level.WARNING, "无法创建给予粘液物品 \"" + id + "\" 的 FoodEffect 因为物品不存在!"
-                + "请确保粘液科技与附属均为最新版!");
+            Gastronomicon.log(Level.WARNING, "Cannot produce a FoodEffect that gives Slimefun item \"" + id +
+                "\" because it doesn't exist. Make sure to keep Slimefun and addons up to date!");
             return giveItem(Material.AIR, 1);
         }
         return giveItem(sfItem.getItem().clone());
@@ -507,7 +506,7 @@ public class FoodEffect {
     public static FoodEffect air(int amount) {
         final int a = Math.max(amount, 1);
         final int pa = (int) Math.ceil(a * PERFECT_MULTIPLIER_AIR);
-        return new FoodEffect("&f空气 +" + a, "&f空气 +" + pa, (Player player, Boolean isPerfect) -> {
+        return new FoodEffect(GetText.tr("&fAir +") + a, GetText.tr("&fAir +") + pa, (Player player, Boolean isPerfect) -> {
             player.setRemainingAir(Math.min(player.getRemainingAir() + (isPerfect ? pa : a), 20));
         });
     }
@@ -522,7 +521,7 @@ public class FoodEffect {
     public static FoodEffect warm(int amount) {
         final int a = Math.max(amount, 1);
         final int pa = (int) Math.ceil(a * PERFECT_MULTIPLIER_WARM);
-        return new FoodEffect("&6温暖 +" + a, "&6温暖 +" + pa, (Player player, Boolean isPerfect) -> {
+        return new FoodEffect(GetText.tr("&6Warmth +") + a, GetText.tr("&6Warmth +") + pa, (Player player, Boolean isPerfect) -> {
             player.setFreezeTicks(Math.max(player.getFreezeTicks() - (isPerfect ? pa : a), 0));
         });
     }
@@ -537,8 +536,8 @@ public class FoodEffect {
     public static FoodEffect teleport(int radius) {
         final int r = NumberUtil.clamp(radius, 1, 10);
         final int pr = (int) Math.ceil(r * PERFECT_MULTIPLIER_TELEPORT);
-        return new FoodEffect("&7在" + r + "格范围内将你随机传送",
-            "&7在" + r + "格范围内将你随机传送",
+        return new FoodEffect(GetText.tr("&7Teleports you somewhere within ") + r + GetText.tr(" blocks away"),
+                GetText.tr("&7Teleports you somewhere within ") + pr + GetText.tr(" blocks away"),
             (Player player, Boolean isPerfect) -> {
                 final Location playerLocation = player.getLocation();
                 final int playerX = playerLocation.getBlockX();
@@ -586,7 +585,7 @@ public class FoodEffect {
         });
     };
 
-    private static final FoodEffect extinguish = new FoodEffect("&f灭火",
+    private static final FoodEffect extinguish = new FoodEffect(GetText.tr("&fExtinguish yourself"),
         (Player player, Boolean isPerfect) -> {
             player.setFireTicks(0);
         });
@@ -598,7 +597,7 @@ public class FoodEffect {
         return extinguish;
     }
 
-    private static final FoodEffect clearPotionEffects = new FoodEffect("&f清除所有效果",
+    private static final FoodEffect clearPotionEffects = new FoodEffect(GetText.tr("&fClear all effects"),
         (Player player, Boolean isPerfect) -> {
             Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(),
                 "/effect " + player.getName() + " clear");

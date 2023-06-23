@@ -19,6 +19,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
+import org.mini2Dx.gettext.GetText;
 
 /**
  * Represents a recipe used by any of the Gastronomicon machines
@@ -36,8 +37,8 @@ public abstract class GastroRecipe {
     @Getter
     @RequiredArgsConstructor
     public enum RecipeShape {
-        SHAPED(new CustomItemStack(Material.CRAFTING_TABLE, "&7该配方为 &f有序配方")),
-        SHAPELESS(new CustomItemStack(Material.BARREL, "&7该配方为 &f无序配方"));
+        SHAPED(new CustomItemStack(Material.CRAFTING_TABLE, GetText.tr("&7This recipe is &fshaped"))),
+        SHAPELESS(new CustomItemStack(Material.BARREL, GetText.tr("&7This recipe is &fshapeless")));
 
         private final ItemStack guideItem;
     }

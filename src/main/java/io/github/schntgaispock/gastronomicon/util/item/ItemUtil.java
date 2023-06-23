@@ -3,6 +3,8 @@ package io.github.schntgaispock.gastronomicon.util.item;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
+import de.unpixelt.locale.Locale;
+import de.unpixelt.locale.Translate;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -11,6 +13,7 @@ import org.bukkit.potion.PotionEffectType;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.WordUtils;
 import lombok.experimental.UtilityClass;
+import org.mini2Dx.gettext.GetText;
 
 @UtilityClass
 public class ItemUtil {
@@ -68,18 +71,7 @@ public class ItemUtil {
     }
 
     public static String getPotionName(PotionEffectType type) {
-        return switch (type.getName()) {
-            case "SLOW" -> "Slowness";
-            case "FAST_DIGGING" -> "Haste";
-            case "SLOW_DIGGING" -> "Mining Fatigue";
-            case "INCREASE_DAMAGE" -> "Strength";
-            case "HEAL" -> "Instant Health";
-            case "HARM" -> "Instant Damage";
-            case "CONFUSION" -> "Nausea";
-            case "DAMAGE_RESISTANCE" -> "Resistance";
-            case "UNLUCK" -> "Bad Luck";
-            default -> WordUtils.capitalizeFully(type.getName().replaceAll("_", " "));
-        };
+        return Translate.getEffect(Locale.zh_tw, type);
     }
 
 }

@@ -10,6 +10,7 @@ import io.github.mooy1.infinitylib.core.AddonConfig;
 import io.github.schntgaispock.gastronomicon.Gastronomicon;
 import io.github.schntgaispock.gastronomicon.api.items.GastroTheme;
 import io.github.schntgaispock.gastronomicon.core.slimefun.items.food.GastroFood;
+import org.mini2Dx.gettext.GetText;
 
 /**
  * Functionality for the '/gastronomicon' command
@@ -49,7 +50,7 @@ public class GastroCommandExecutor implements CommandExecutor {
                     case "profile":
                         final Player toCheck = Bukkit.getServer().getPlayer(args[1]);
                         if (toCheck == null) {
-                            Gastronomicon.sendMessage(player, "&c未知玩家!");
+                            Gastronomicon.sendMessage(player, GetText.tr("&cUnknown player!"));
                             return true;
                         }
                         return commandProfile(player, toCheck);
@@ -62,7 +63,7 @@ public class GastroCommandExecutor implements CommandExecutor {
                 if (args[0].equals("proficiency") && args[1].equals("get")) {
                     final Player target = Bukkit.getServer().getPlayerExact(args[3]);
                     if (target == null) {
-                        Gastronomicon.sendMessage(player, "&c未知玩家!");
+                        Gastronomicon.sendMessage(player, GetText.tr("&cUnknown player!"));
                         return false;
                     }
                     if (target.getUniqueId() == player.getUniqueId()) {
@@ -81,31 +82,31 @@ public class GastroCommandExecutor implements CommandExecutor {
                             player,
                             "gastronomicon.modifyprofile",
                             GastroTheme.PERFECT_FOOD.getColor()
-                                + "§l美食家&7> &c你没有权限来更改档案!"))
+                                + GetText.tr("§lGastronomicon&7> &cYou do not have permission to modify profiles!")))
                             return true;
 
                         final int amount;
                         try {
                             amount = Integer.parseInt(args[3]);
                         } catch (NumberFormatException e) {
-                            Gastronomicon.sendMessage(player, "&c数量必须为正整数!");
+                            Gastronomicon.sendMessage(player, GetText.tr("&cAmount must be a number!"));
                             return true;
                         }
                         if (amount < 0) {
-                            Gastronomicon.sendMessage(player, "&c数量必须为正整数!");
+                            Gastronomicon.sendMessage(player, GetText.tr("&cAmount must be positive!"));
                             return true;
                         }
 
                         final Player target = Bukkit.getServer().getPlayerExact(args[4]);
                         if (target == null) {
-                            Gastronomicon.sendMessage(player, "&c未知玩家!");
+                            Gastronomicon.sendMessage(player, GetText.tr("&cUnknown player!"));
                             return true;
                         }
 
                         final String foodId = args[2];
                         if (!GastroFood.getGastroFoodIds().stream().filter(str -> !str.startsWith("GN_PERFECT"))
                             .anyMatch(str -> str.equals(foodId))) {
-                            Gastronomicon.sendMessage(player, "&c未知食物!");
+                            Gastronomicon.sendMessage(player, GetText.tr("&cUnknown food!"));
                             return true;
                         }
                         return commandProficiencyModify(player, target, args[1], foodId, amount);
@@ -121,32 +122,32 @@ public class GastroCommandExecutor implements CommandExecutor {
 
     private void sendProficiencies(Player player, Player toCheck) {
         Gastronomicon.sendMessage(player, Gastronomicon.getInstance().getPlayerData()
-            .get(player.getUniqueId() + ".proficiencies", "出现了一些小错误!").toString());
+            .get(player.getUniqueId() + ".proficiencies", "Something went wrong!").toString());
     }
 
     private void sendInfo(Player player) {
         player.sendMessage(
             "",
-            GastroTheme.PERFECT_FOOD.getColor() + "§l美食家 §8- §7版本 "
+            GastroTheme.PERFECT_FOOD.getColor() + GetText.tr("§lGastronomicon §8- §7Version ")
                 + Gastronomicon.getInstance().getPluginVersion(),
             "§f------",
             GastroTheme.PERFECT_FOOD.getColor()
-                + "§lWiki §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/wiki",
+                + GetText.tr("§lWiki §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/wiki"),
             GastroTheme.PERFECT_FOOD.getColor()
-                + "§lIssues §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/issues",
+                + GetText.tr("§lIssues §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/issues"),
             "");
     }
 
     private void sendHelp(Player player) {
-        Gastronomicon.sendMessage(player, "帮助指令暂未完成! " +
-            "请访问插件仓库 https://github.com/SchnTgaiSpock/Gastronomicon");
+        Gastronomicon.sendMessage(player, GetText.tr("The help section is a WIP! ") +
+            GetText.tr("For now, please see https://github.com/SchnTgaiSpock/Gastronomicon"));
     }
 
     private void sendCredits(Player player) {
         player.sendMessage(
-            GastroTheme.PERFECT_FOOD.getColor() + "§l美食家 §8- §7感谢:",
+            GastroTheme.PERFECT_FOOD.getColor() + GetText.tr("§lGastronomicon §8- §7Credits:"),
             "§f------",
-            "§7部分头颅材质来自 https://minecraft-heads.com/ 与 https://headdb.org/");
+            GetText.tr("§7Some head textures were taken and/or modified from https://minecraft-heads.com/ and https://headdb.org/"));
     }
 
     private boolean commandProfile(Player player) {
@@ -154,9 +155,9 @@ public class GastroCommandExecutor implements CommandExecutor {
             player,
             "gastronomicon.checkprofile",
             GastroTheme.PERFECT_FOOD.getColor()
-                + "§l美食家&7> &c你没有权限来检查你的档案!"))
+                + GetText.tr("§lGastronomicon&7> &cYou do not have permission to check your profile!")))
             return true;
-        Gastronomicon.sendMessage(player, "熟练度:");
+        Gastronomicon.sendMessage(player, GetText.tr("Proficiencies:"));
         sendProficiencies(player, player);
         return true;
     }
@@ -166,10 +167,10 @@ public class GastroCommandExecutor implements CommandExecutor {
             player,
             "gastronomicon.checkotherprofile",
             GastroTheme.PERFECT_FOOD.getColor()
-                + "§l美食家&7> &c你没有权限查看其他玩家的档案!"))
+                + GetText.tr("§lGastronomicon&7> &cYou do not have permission to check another player's profile!")))
             return true;
 
-        Gastronomicon.sendMessage(player, other.getName() + "的熟练度:");
+        Gastronomicon.sendMessage(player, other.getName() + GetText.tr("'s Proficiencies:"));
         sendProficiencies(player, other);
         return true;
     }
@@ -179,12 +180,12 @@ public class GastroCommandExecutor implements CommandExecutor {
             player,
             "gastronomicon.checkprofile",
             GastroTheme.PERFECT_FOOD.getColor()
-                + "§l美食家&7> &c你没有权限来修改你的档案!"))
+                + GetText.tr("§lGastronomicon&7> &cYou do not have permission to check your profile!")))
             return true;
 
         if (!GastroFood.getGastroFoodIds().stream().filter(str -> !str.startsWith("GN_PERFECT"))
             .anyMatch(str -> str.equals(foodId))) {
-            Gastronomicon.sendMessage(player, "&c未知食物!");
+            Gastronomicon.sendMessage(player, GetText.tr("&cUnknown food!"));
             return true;
         }
         final AddonConfig playerData = Gastronomicon.getInstance().getPlayerData();
@@ -198,12 +199,12 @@ public class GastroCommandExecutor implements CommandExecutor {
             player,
             "gastronomicon.checkotherprofile",
             GastroTheme.PERFECT_FOOD.getColor()
-                + "§l美食家&7> &c你没有权限来修改其他玩家的档案!"))
+                + GetText.tr("§lGastronomicon&7> &cYou do not have permission to check another player's profile!")))
             return true;
 
         if (!GastroFood.getGastroFoodIds().stream().filter(str -> !str.startsWith("GN_PERFECT"))
             .anyMatch(str -> str.equals(foodId))) {
-            Gastronomicon.sendMessage(player, "&c未知指令!");
+            Gastronomicon.sendMessage(player, GetText.tr("&cUnknown food!"));
             return true;
         }
         final AddonConfig playerData = Gastronomicon.getInstance().getPlayerData();
@@ -219,22 +220,22 @@ public class GastroCommandExecutor implements CommandExecutor {
             case "set":
                 playerData.set(proficiencyPath, amount);
                 Gastronomicon.sendMessage(player,
-                    "成功设置玩家" + other.getName() + "的食物 " + foodId + " 的熟练度为:" + amount);
+                    GetText.tr("Successefully set {0} proficiency to {1} for {2}", foodId, amount, other.getName()));
                 break;
             case "add":
                 playerData.set(proficiencyPath, playerData.getInt(proficiencyPath, 0) + amount);
                 Gastronomicon.sendMessage(player,
-                    "成功为玩家" + other.getName() + "的食物 " + foodId + " 添加熟练度: " + amount);
+                    GetText.tr("Successefully added {0} {1} proficiency for {2}", amount, foodId, other.getName()));
                 break;
             case "sub":
                 playerData.set(proficiencyPath,
                     Math.min(playerData.getInt(proficiencyPath, 0) - amount, 0));
                 Gastronomicon.sendMessage(player,
-                    "成功为玩家" + other.getName() + "的食物 " + foodId + " 减少熟练度: " + amount);
+                    GetText.tr("Successefully removed {0} {1} proficiency for {2}", amount, foodId, other.getName()));
                 break;
 
             default:
-                Gastronomicon.sendMessage(player, "未知模式!");
+                Gastronomicon.sendMessage(player, GetText.tr("Unknown mode!"));
                 return false;
         }
         playerData.save();

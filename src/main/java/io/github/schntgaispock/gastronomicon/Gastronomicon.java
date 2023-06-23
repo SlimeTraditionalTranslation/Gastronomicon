@@ -1,11 +1,14 @@
 package io.github.schntgaispock.gastronomicon;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Locale;
 import java.util.logging.Level;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
+import org.antlr.v4.runtime.misc.ParseCancellationException;
 import org.bstats.bukkit.Metrics;
 import org.bstats.charts.SimplePie;
 import org.bukkit.Bukkit;
@@ -27,6 +30,8 @@ import lombok.Getter;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextColor;
 import net.kyori.adventure.text.format.TextDecoration;
+import org.mini2Dx.gettext.GetText;
+import org.mini2Dx.gettext.PoFile;
 
 @Getter
 public class Gastronomicon extends AbstractAddon {
@@ -37,33 +42,39 @@ public class Gastronomicon extends AbstractAddon {
     private AddonConfig customFood;
 
     public Gastronomicon() {
-        super("SlimefunGuguProject", "Gastronomicon", "master", "options.auto-update");
+        super("SlimeTraditionalTranslation", "Gastronomicon", "master", "options.auto-update");
     }
 
     @Override
     public void enable() {
         instance = this;
 
-        if (!getServer().getPluginManager().isPluginEnabled("GuizhanLibPlugin")) {
-            getLogger().log(Level.SEVERE, "本插件需要 鬼斩前置库插件(GuizhanLibPlugin) 才能运行!");
-            getLogger().log(Level.SEVERE, "从此处下载: https://50l.cc/gzlib");
-            getServer().getPluginManager().disablePlugin(this);
-            return;
-        }
-
-        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("Build")) {
-            GuizhanUpdater.start(this, getFile(), "SlimegunGuguProject", "Gastronomicon", "master");
-        }
-
         getLogger().info("#======================================#");
         getLogger().info("#    Gastronomicon by SchnTgaiSpock    #");
-        getLogger().info("#   美食家    粘液科技简中汉化组汉化   #");
         getLogger().info("#======================================#");
 
         final Metrics metrics = new Metrics(this, 16941);
 
         metrics.addCustomChart(
             new SimplePie("exoticgardenInstalled", () -> Boolean.toString(isPluginEnabled("ExoticGarden"))));
+
+        GetText.setLocale(Locale.TRADITIONAL_CHINESE);
+        InputStream inputStream = getClass().getResourceAsStream("/translations/zh_tw.po");
+        if (inputStream == null) {
+            getLogger().severe("錯誤！無法找到翻譯檔案，請回報給翻譯者。");
+            getServer().getPluginManager().disablePlugin(this);
+            return;
+        } else {
+            getLogger().info("載入繁體翻譯檔案...");
+            try {
+                PoFile poFile = new PoFile(Locale.TRADITIONAL_CHINESE, inputStream);
+                GetText.add(poFile);
+            } catch (ParseCancellationException | IOException e) {
+                getLogger().severe("錯誤！讀取翻譯時發生錯誤，請回報給翻譯者：" + e.getMessage());
+                getServer().getPluginManager().disablePlugin(this);
+                return;
+            }
+        }
 
         ItemSetup.setup();
         ResearchSetup.setup();
@@ -72,31 +83,31 @@ public class Gastronomicon extends AbstractAddon {
 
         if (isPluginEnabled("SlimeHUD")) {
             try {
-                log(Level.INFO, "检测到服务器已安装 SlimeHUD!");
-                log(Level.INFO, "接入相关功能...");
+                log(Level.INFO, GetText.tr("SlimeHUD was found on this server!"));
+                log(Level.INFO, GetText.tr("Setting up Gastronomicon for SlimeHUD..."));
                 SlimeHUDSetup.setup();
             } catch (NoClassDefFoundError e) {
-                log(Level.WARNING, "该服务器安装的 SlimeHUD 版本不兼容");
-                log(Level.WARNING, "请更新 SlimeHUD 至最新版本!");
+                log(Level.WARNING, GetText.tr("This server is using an incompatitable version of SlimeHUD"));
+                log(Level.WARNING, GetText.tr("Please update SlimeHUD to version 1.2.0 or higher!"));
             }
         }
-
+        
         // If disable-exotic-garden-recipes is true "!" will change it to false and the rest of the code won't run.
         // If disable-exotic-garden-recipes is false "!" will change it to true and the rest of the code will run checking for ExoticGarden.
-
+        
         if (!getConfig().getBoolean("disable-exotic-garden-recipes") && !isPluginEnabled("ExoticGarden")) {
-            log(Level.WARNING, "检测到服务器未安装 异域花园(ExoticGarden)!");
-            log(Level.WARNING, "需要异域花园物品的配方将被隐藏。");
+            log(Level.WARNING, GetText.tr("ExoticGarden was not found on this server!"));
+            log(Level.WARNING, GetText.tr("Recipes that require ExoticGarden items will be hidden."));
         }
 
         if (isPluginEnabled("DynaTech") && !getConfig().getBoolean("disable-dynatech-integration")) {
             try {
-                log(Level.INFO, "检测到服务器已安装 动力科技(DynaTech)!");
-                log(Level.INFO, "正在向动力科技添加相关作物...");
+                log(Level.INFO, GetText.tr("DynaTech was found on this server!"));
+                log(Level.INFO, GetText.tr("Registering Gastronomicon crops with DynaTech..."));
                 DynaTechSetup.setup();
             } catch (NoClassDefFoundError e) {
-                log(Level.WARNING, "该服务器安装的 DynaTech 版本不兼容");
-                log(Level.WARNING, "请更新 DynaTech 至最新版本!");
+                log(Level.WARNING, GetText.tr("This server is using an incompatitable version of DynaTech"));
+                log(Level.WARNING, GetText.tr("Please keep Gastronomicon and DynaTech up to date!"));
             }
         }
 
@@ -154,12 +165,12 @@ public class Gastronomicon extends AbstractAddon {
     }
 
     public static void sendMessage(Player player, String message) {
-        player.sendMessage(/* ChatColor.of("#c91df4") + "§l美食家§7§l> §7" + */ StringUtil.formatColors(message));
+        player.sendMessage(/* ChatColor.of("#c91df4") + "§lGastronomicon§7§l> §7" + */ StringUtil.formatColors(message));
     }
 
     public static void sendMessage(Player player, Component message) {
         final Component text = Component.text()
-            .content("美食家")
+            .content("Gastronomicon")
             .color(TextColor.color(0xc9, 0x1d, 0xf4))
             .decorate(TextDecoration.BOLD)
             .append(Component.text()

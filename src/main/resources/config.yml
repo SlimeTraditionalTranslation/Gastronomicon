@@ -1,30 +1,29 @@
 options:
-  # 是否启用自动更新
   auto-update: true
 
-# 是否禁用需要异域花园(ExoticGarden)物品的配方
+# Disable recipes that require ExoticGarden items.
 disable-exotic-garden-recipes: false
 
-# 是否禁用向动力科技(DynaTech)的培育仓添加美食家(Gastronomicon)的植物。
+# Disable putting Gastronomicon crops into DynaTech growth chambers.
 disable-dynatech-integration: false
 
-# 制作完美食物的几率 (0-1)
+# The maximum chance to craft a perfect food [0 ... 1]
 perfect-food-max-chance: 0.25
 
-# 训练厨师机器人所需的食物熟练度，以及计入玩家档案所需的食物熟练度
+# The proficiency required to teach a Chef Android and to count towards players' titles
 proficiency-threshold: 256
 
 drops:
-  # 方块掉落美食家(Gastronomicon)种子的几率 (0-1)
+  # The chance for dropping Gastronomicon seeds when an appropriate block is broken [0 ... 1]
   block-break-chance: 0.15
-  # 击杀生物掉落美食家(Gastronomicon)物品的几率 (0-1)
+  # The chance for dropping Gastronomicon mob drops when an appropriate mob is killed [0 ... 1]
   mob-kill-chance: 0.35
 
 profile:
-  # 玩家档案的头衔
+  # Titles based on total proficient food
   titles:
-    0: 不是厨师
-    1: 新手厨师
-    50: 学徒厨师
-    100: 经验丰富的厨师
-    200: 三星大厨
+    0: 不是名廚師
+    1: 新手廚師
+    50: 學徒廚師
+    100: 老練廚師
+    200: 三星廚師

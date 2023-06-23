@@ -17,13 +17,13 @@ import io.github.schntgaispock.gastronomicon.core.slimefun.recipes.GastroRecipeT
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent;
 import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.CommonPatterns;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
+import org.mini2Dx.gettext.GetText;
 
 @Getter
 @SuppressWarnings("deprecation")
@@ -31,21 +31,20 @@ public class MultiStove extends GastroWorkstation implements EnergyNetComponent 
 
     @RequiredArgsConstructor
     public enum Temperature {
-        LOW(TEMPERATURE_BUTTON_LOW, "低"),
-        MEDIUM(TEMPERATURE_BUTTON_MEDIUM, "中"),
-        HIGH(TEMPERATURE_BUTTON_HIGH, "高");
+        LOW(TEMPERATURE_BUTTON_LOW), MEDIUM(TEMPERATURE_BUTTON_MEDIUM), HIGH(TEMPERATURE_BUTTON_HIGH);
 
         private final @Getter ItemStack item;
 
-        private final @Getter String text;
-
-        public static @Nonnull Temperature fromText(String text) {
-            for (Temperature temp : values()) {
-                if (temp.getText().equals(text)) {
-                    return temp;
-                }
+        public static @Nullable Temperature getTRByName(String name) {
+            if (ChatColor.stripColor(ChatColor.translateAlternateColorCodes('&', GetText.tr("&7Temperature: &eLOW"))).equals(name)) {
+                return LOW;
+            } else if (ChatColor.stripColor(ChatColor.translateAlternateColorCodes('&', GetText.tr("&7Temperature: &6MEDIUM"))).equals(name)) {
+                return MEDIUM;
+            } else if (ChatColor.stripColor(ChatColor.translateAlternateColorCodes('&', GetText.tr("&7Temperature: &cHIGH"))).equals(name)) {
+                return HIGH;
+            } else {
+                return null;
             }
-            throw new IllegalArgumentException(text + " is now a valid value");
         }
 
         public @Nullable Temperature next() {
@@ -66,21 +65,21 @@ public class MultiStove extends GastroWorkstation implements EnergyNetComponent 
     }
 
     public static final ItemStack TEMPERATURE_BUTTON_LOW = new CustomItemStack(
-        Material.YELLOW_STAINED_GLASS_PANE,
-        "&7温度: &e低",
-        "",
-        "&b左键点击 &7提高温度");
+            Material.YELLOW_STAINED_GLASS_PANE,
+            GetText.tr("&7Temperature: &eLOW"),
+            "",
+            GetText.tr("&bLeft-click &7to increase"));
     public static final ItemStack TEMPERATURE_BUTTON_MEDIUM = new CustomItemStack(
-        Material.ORANGE_STAINED_GLASS_PANE,
-        "&7温度: &6中",
-        "",
-        "&b左键点击 &7提高温度",
-        "&b右键点击 &7降低温度");
+            Material.ORANGE_STAINED_GLASS_PANE,
+            GetText.tr("&7Temperature: &6MEDIUM"),
+            "",
+            GetText.tr("&bLeft-click &7to increase"),
+            GetText.tr("&bRight-click &7to decrease"));
     public static final ItemStack TEMPERATURE_BUTTON_HIGH = new CustomItemStack(
-        Material.RED_STAINED_GLASS_PANE,
-        "&7温度: &c高",
-        "",
-        "&b右键点击 &7降低温度");
+            Material.RED_STAINED_GLASS_PANE,
+            GetText.tr("&7Temperature: &cHIGH"),
+            "",
+            GetText.tr("&bRight-click &7to decrease"));
     public static final int TEMPERATURE_BUTTON_SLOT = 52;
     public static final String TEMPERATURE_KEY = "gastronomicon:multi_stove/temperature";
 
@@ -108,12 +107,12 @@ public class MultiStove extends GastroWorkstation implements EnergyNetComponent 
         menu.addMenuOpeningHandler(player -> {
             final String temp = BlockStorage.getLocationInfo(menu.getLocation(), TEMPERATURE_KEY);
             menu.replaceExistingItem(TEMPERATURE_BUTTON_SLOT,
-                temp == null ? TEMPERATURE_BUTTON_LOW : Temperature.valueOf(temp).getItem(), false);
+                    temp == null ? TEMPERATURE_BUTTON_LOW : Temperature.valueOf(temp).getItem(), false);
         });
 
         menu.addMenuClickHandler(TEMPERATURE_BUTTON_SLOT, (player, slot, item, action) -> {
-            String temp = CommonPatterns.COLON.split(ChatColor.stripColor(item.getItemMeta().getDisplayName()))[1].trim();
-            final Temperature t = Temperature.fromText(temp);
+            String display_name = ChatColor.stripColor(item.getItemMeta().getDisplayName());
+            final Temperature t = Temperature.getTRByName(display_name);
             changeTemperature(menu, action.isRightClicked() ? t.prev() : t.next());
             return false;
         });
@@ -140,7 +139,7 @@ public class MultiStove extends GastroWorkstation implements EnergyNetComponent 
     @Override
     @Nullable
     protected GastroRecipe findRecipe(ItemStack[] ingredients, List<ItemStack> containers, List<ItemStack> tools,
-        Player player, BlockMenu menu) {
+                                      Player player, BlockMenu menu) {
         final GastroRecipe recipe = super.findRecipe(ingredients, containers, tools, player, menu);
         if (recipe instanceof final MultiStoveRecipe msRecipe) {
             if (msRecipe.getTemperature().getItem().isSimilar(menu.getItemInSlot(TEMPERATURE_BUTTON_SLOT))) {
@@ -156,7 +155,7 @@ public class MultiStove extends GastroWorkstation implements EnergyNetComponent 
     @Override
     protected int getOtherHash(Player player, BlockMenu menu) {
         return menu.getItemInSlot(TEMPERATURE_BUTTON_SLOT).getType().ordinal(); // Doesn't have to be a hash, just
-                                                                                // unique
+        // unique
     }
 
     @Override

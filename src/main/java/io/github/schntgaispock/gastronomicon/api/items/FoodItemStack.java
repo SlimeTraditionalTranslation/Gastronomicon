@@ -16,6 +16,7 @@ import io.github.thebusybiscuit.slimefun4.utils.ChatUtils;
 import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
 import lombok.Getter;
 import lombok.ToString;
+import org.mini2Dx.gettext.GetText;
 
 /**
  * A FoodItemStack stores the effects of a GastroFood.
@@ -79,7 +80,7 @@ public class FoodItemStack extends SlimefunItemStack {
 
         if (effects != null && effects.length > 0) {
             fLore.add("");
-            fLore.add("&7食用后获得:");
+            fLore.add(GetText.tr("&7When consumed:"));
             for (FoodEffect effect : effects) {
                 fLore.add("&8‑ " + (isPerfect ? effect.getPerfectDescription() : effect.getDescription()));
             }
