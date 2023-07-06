@@ -4,6 +4,24 @@
 
 此附加自動與 DynaTech 整合，用於作物自動化。可以在 `config.yml` 中手動停用 DynaTech 和 ExoticGarden 的整合功能。
 
+> 此為**非官方**的黏液科技繁體翻譯版
+>
+> 請勿在該作者的問題追蹤中回報有關此的任何錯誤！
+>
+> 如果使用本翻譯遇到錯誤、翻譯用法奇怪或其他等等的問題
+>
+> 請加入非官方的 [Slimefun 繁體中文版][TraditionalChinese-DiscordLink] Discord 伺服器一起討論！
+
+| 繁體中文版 | 官方英文版 |
+| -------- | -------- |
+| [![Build Status][TraditionalChinese-Badge]][TraditionalChinese-Link] | [![Build Status][Official-Badge]][Official-Link] |
+
+[TraditionalChinese-Badge]: https://xmikux.github.io/builds/SlimeTraditionalTranslation/Gastronomicon/master/badge.svg
+[TraditionalChinese-Link]: https://xmikux.github.io/builds/SlimeTraditionalTranslation/Gastronomicon/master/
+[TraditionalChinese-DiscordLink]: https://discord.gg/GF4CwjFXT9
+[Official-Badge]: https://thebusybiscuit.github.io/builds/SchnTgaiSpock/Gastronomicon/master/badge.svg
+[Official-Link]: https://thebusybiscuit.github.io/builds/SchnTgaiSpock/Gastronomicon/master
+
 ## 遊戲玩法
 
 有關更多遊戲玩法的詳細資訊，請參閱 Wiki：https://github.com/SchnTgaiSpock/Gastronomicon/wiki
