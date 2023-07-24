@@ -901,7 +901,8 @@ public class GastroStacks {
             .add(GastroStacks.CASSAVA,
                 GastroStacks.LENTILS,
                 GastroStacks.CUMIN_SEEDS,
-                GastroStacks.HONEYDEW_MELON_SEEDS)
+                GastroStacks.HONEYDEW_MELON_SEEDS,
+                GastroStacks.SORGHUM_SEEDS)
             .build();
         final LootTable<ItemStack> TEMPERATE_CLIMATE_GRASS_DROPS = LootTable.builder(ItemStack.class)
             .add(6,
@@ -909,7 +910,8 @@ public class GastroStacks {
                 GastroStacks.OATS,
                 GastroStacks.SOYBEANS,
                 GastroStacks.BARLEY_SEEDS,
-                GastroStacks.RYE_SEEDS)
+                GastroStacks.RYE_SEEDS,
+                GastroStacks.SORGHUM_SEEDS)
             .add(4,
                 GastroStacks.TURNIP_SEEDS,
                 GastroStacks.RED_BEANS,
@@ -917,6 +919,7 @@ public class GastroStacks {
                 GastroStacks.HONEYDEW_MELON_SEEDS,
                 GastroStacks.SESAME_SEEDS,
                 GastroStacks.PEANUTS,
+                GastroStacks.BEANS,
                 GastroStacks.PEAS)
             .add(3,
                 GastroStacks.BOK_CHOY_SEEDS,

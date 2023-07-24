@@ -1720,8 +1720,8 @@ msgstr "&7溫度：&c高溫"
 
 #: src/main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:29
 #: src/main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:31
-msgid "No android"
-msgstr "無機器人"
+msgid "&7| No android"
+msgstr "&7｜無機器人"
 
 #: src/main/java/io/github/schntgaispock/gastronomicon/integration/SlimeHUDSetup.java:39
 msgid "&7| Not in water"
