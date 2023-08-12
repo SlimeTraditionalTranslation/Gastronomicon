@@ -132,7 +132,7 @@ public class GastroCommandExecutor implements CommandExecutor {
                 + Gastronomicon.getInstance().getPluginVersion(),
             "§f------",
             GastroTheme.PERFECT_FOOD.getColor()
-                + GetText.tr("§lWiki §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/wiki"),
+                + GetText.tr("§lWiki §f- §7https://schn.pages.dev/gastronomicon"),
             GastroTheme.PERFECT_FOOD.getColor()
                 + GetText.tr("§lIssues §f- §7https://github.com/SchnTgaiSpock/Gastronomicon/issues"),
             "");
@@ -140,7 +140,7 @@ public class GastroCommandExecutor implements CommandExecutor {
 
     private void sendHelp(Player player) {
         Gastronomicon.sendMessage(player, GetText.tr("The help section is a WIP! ") +
-            GetText.tr("For now, please see https://github.com/SchnTgaiSpock/Gastronomicon"));
+            GetText.tr("For now, please see https://schn.pages.dev/gastronomicon"));
     }
 
     private void sendCredits(Player player) {

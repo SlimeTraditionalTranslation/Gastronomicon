@@ -24,7 +24,7 @@
 
 ## 遊戲玩法
 
-有關更多遊戲玩法的詳細資訊，請參閱 Wiki：https://github.com/SchnTgaiSpock/Gastronomicon/wiki
+有關更多遊戲玩法的詳細資訊，請參閱 Wiki：https://schn.pages.dev/gastronomicon
 
 ## 系統需求
 
@@ -40,9 +40,15 @@
 
 ## API
 
-API 文件可以在 Wiki 上找到：https://github.com/SchnTgaiSpock/Gastronomicon/wiki/Custom-Food
+API 文件可以在 Wiki 上找到：https://schn.pages.dev/gastronomicon
 
 ## 變更日誌：
+
+### Version 1.0.5
+
+- 修正 1.18 的不相容性質
+- 修正香蕉樹葉給予錯誤類型 修正在 DynaTech 的生長倉中香蕉樹給錯誤類型的葉子
+- 遷移維基連結到 <https://schn.pages.dev/gastronomicon>
 
 ### 版本 0.1.0
 
